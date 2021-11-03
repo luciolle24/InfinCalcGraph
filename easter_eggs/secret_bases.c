@@ -16,6 +16,8 @@ void gay_agenda(void);
 void sigma(void);
 void lucio24(void);
 void flysland(void);
+void shian(void);
+void handling_secrets2(int len);
 
 void testing_for_easter_eggs(char *base)
 {
@@ -30,7 +32,7 @@ void testing_for_easter_eggs(char *base)
     easter_eggs[4] = "anbusigma";
     easter_eggs[5] = "lucio24";
     easter_eggs[6] = "Flysland";
-    easter_eggs[7] = "shian"
+    easter_eggs[7] = "shian";
     while (counter < nbr_of_easter_eggs) {
         is_this_a_base(base, easter_eggs[counter]);
         counter++;
@@ -71,13 +73,25 @@ void handling_secrets(int len)
     case 9:
         sigma();
         break;
+    default:
+        handling_secrets2(len);
+        break;
+    }
+}
+
+void handling_secrets2(int len)
+{
+    switch (len)
+    {
     case 7:
         lucio24();
         break;
     case 8:
-
-
-    case 6;
+        flysland();
+        break;
+    case 5:
+        shian();
+        break;
     }
 
 }
