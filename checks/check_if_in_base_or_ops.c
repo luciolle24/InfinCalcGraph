@@ -30,7 +30,6 @@ int check_if_in_both(char *base, char *ops)
         }
     }
     return (0);
-
 }
 
 int check(char c, char *base)

@@ -12,16 +12,25 @@ void logo_42(void);
 void turing_logo(void);
 void handling_secrets(int len);
 void is_this_a_base(char *base, char *secret);
+void gay_agenda(void);
+void sigma(void);
+void lucio24(void);
+void flysland(void);
 
 void testing_for_easter_eggs(char *base)
 {
     int counter = 0;
-    int nbr_of_easter_eggs = 3;
-    char *easter_eggs[3];
+    int nbr_of_easter_eggs = 6;
+    char *easter_eggs[7];
 
     easter_eggs[0] = "neko";
     easter_eggs[1] = "turing";
     easter_eggs[2] = "42";
+    easter_eggs[3] = "gay";
+    easter_eggs[4] = "anbusigma";
+    easter_eggs[5] = "lucio24";
+    easter_eggs[6] = "Flysland";
+    easter_eggs[7] = "shian"
     while (counter < nbr_of_easter_eggs) {
         is_this_a_base(base, easter_eggs[counter]);
         counter++;
@@ -56,5 +65,19 @@ void handling_secrets(int len)
     case 6:
         turing_logo();
         break;
+    case 3:
+        gay_agenda();
+        break;
+    case 9:
+        sigma();
+        break;
+    case 7:
+        lucio24();
+        break;
+    case 8:
+
+
+    case 6;
     }
+
 }

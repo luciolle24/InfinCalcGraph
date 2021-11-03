@@ -14,9 +14,10 @@ SRC = main.c\
 	  handling_things/error_handling.c\
 	  logo/error_logo.c\
 	  logo/error_logo2.c\
+	  logo/secret_logo.c\
+	  logo/secret_logo2.c\
 	  getting_calc.c\
 	  checks/ops_parsing.c\
-	  logo/secret_logo.c\
 	  checks/checking_if_correct_calc.c\
 	  checks/check_if_in_base_or_ops.c\
 	  easter_eggs/secret_bases.c
